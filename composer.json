@@ -1,0 +1,20 @@
+{
+  "name": "rooting/mvc",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ShushannaKarapetyan",
+      "email": "shushanna.karapetyan.97@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "app\\": "./"
+    }
+  },
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^5.3",
+    "ext-json": "*"
+  }
+}
